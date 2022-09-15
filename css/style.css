@@ -178,6 +178,9 @@ section.last .container{
 }
 
 .action{
+  padding: 60px;
+  background-image: url(/img/stars.svg);
+  background-repeat: no-repeat;
   min-height: 25%;
   min-width: 25%;
 }
@@ -193,7 +196,7 @@ section.last .container{
 }
 
 .action button{
-  margin: 20px 90px;
+  margin: 20px 30%;
   color: white;
   background-color: #3061e0;
   border: 10px solid #3061e0;
@@ -209,13 +212,17 @@ section.last .container{
 footer{
   background-color: rgba(10, 9, 9, 0.774);
   color: aliceblue;
+  width: 100%;
+  max-height: 600px;
 } 
 
 .footer-top{
   display: flex;
-  padding: 40%;
   border-bottom: 2px solid #91abec;
   justify-content: space-between;
+  margin: 0 auto;
+  width: 1200px;
+  max-width: 90%;
 }
 
 .social{
@@ -228,7 +235,15 @@ footer{
   color: #3061e0;
 }
 
+.social img{
+  height: 16px;
+  vertical-align: auto;
+}
 
+.social span::after{
+  contain:'\2304';
+  color: aliceblue;
+}
 
 .footer-top .menù{
   width: calc(100% / 6);
@@ -237,6 +252,18 @@ footer{
 .footer-bottom{
   display: flex;
   justify-content: space-between;
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 1200px;
+  max-width: 90%;
+}
+
+.footer-bottom .bottone a{
+  background-color: #3061e0;
+  border: 10px solid #3061e0;
+  border-radius: 30px;
+    color: white;
+    padding: 2px 10px;
 }
 
 
