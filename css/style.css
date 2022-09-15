@@ -14,6 +14,12 @@ body{
   max-width: 90%;
 }
 
+ul li{
+  cursor: pointer;
+}
+
+
+
 header .menù ul{
   display: flex;
   text-align: center;
@@ -41,6 +47,7 @@ header .bottone button{
   background-color: white;
   border: 10px solid white;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 header{
@@ -88,6 +95,7 @@ header .container{
   display: flex;
   justify-content: center;
   gap: 20px;
+  cursor: pointer;
 }
 
 .pulsanti .scarica{
@@ -201,6 +209,7 @@ section.last .container{
   background-color: #3061e0;
   border: 10px solid #3061e0;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .action button::before{
@@ -214,7 +223,7 @@ footer{
   color: aliceblue;
   width: 100%;
   max-height: 600px;
-} 
+}
 
 .footer-top{
   display: flex;
@@ -223,16 +232,19 @@ footer{
   margin: 0 auto;
   width: 1200px;
   max-width: 90%;
+  padding: 60px 0;
 }
 
 .social{
   width: calc(100% / 3);
+  line-height: 40px;
 }
 
-.social h2{
-  font-size: 60px;
+.social h3{
+  font-size: 30px;
   font-weight: 600;
   color: #3061e0;
+  margin-bottom: 20px;
 }
 
 .social img{
@@ -240,14 +252,29 @@ footer{
   vertical-align: auto;
 }
 
-.social span::after{
-  contain:'\2304';
-  color: aliceblue;
+.social-icon i{
+  padding: 14px;
 }
 
-.footer-top .menù{
+.ita{
+  cursor: pointer;
+}
+
+.footer-top .menu{
   width: calc(100% / 6);
 }
+
+.footer-top .menu h5{
+  color: #3061e0;
+}
+
+.footer-top .menu ul{
+  list-style: none;
+  line-height: 30px;
+}
+
+
+/*bottom*/
 
 .footer-bottom{
   display: flex;
@@ -262,8 +289,9 @@ footer{
   background-color: #3061e0;
   border: 10px solid #3061e0;
   border-radius: 30px;
-    color: white;
-    padding: 2px 10px;
+  color: white;
+  padding: 2px 10px;
+  cursor: pointer;
 }
 
 
